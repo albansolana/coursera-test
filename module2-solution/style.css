@@ -9,22 +9,32 @@ h1 {
 }
 h2 {
   position: absolute;
-  padding-left: 330px;
-  padding-top: 10px;
+  right: 23px;
+  bottom: 150px;
+  top: -20px;
+  border: 3px solid black;
+}
+h2.Chicken {
+  background: red;
+}
+h2.Beef {
+  background: blue;
+}
+h2.Sushi {
+  background: green;
 }
 
-div.chickensection {
 
+div.chickensection {
   position: relative;
-  background color: red;
 }
 div.beefsection{
   position: relative;
-  background color: blue
+  
 }
 div.sushisection{
   position: relative;
-  background color: green
+  
 }
 
 p {
@@ -35,8 +45,8 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: justify;
   font-family: comic-sans;
   color: black;
